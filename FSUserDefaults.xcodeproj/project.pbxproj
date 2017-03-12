@@ -16,7 +16,6 @@
 		35EBB1DF1E75E6E500E58B33 /* FSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EBB1DE1E75E6E500E58B33 /* FSUserDefaults.m */; };
 		35EBB1E31E75EEAD00E58B33 /* MyUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EBB1E21E75EEAD00E58B33 /* MyUserDefaults.m */; };
 		35EBB1E51E75F0E200E58B33 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35EBB1E41E75F0E200E58B33 /* LICENSE.txt */; };
-		35EBB1E71E75F19100E58B33 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 35EBB1E61E75F19100E58B33 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +33,8 @@
 		35EBB1DE1E75E6E500E58B33 /* FSUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSUserDefaults.m; sourceTree = "<group>"; };
 		35EBB1E11E75EEAD00E58B33 /* MyUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUserDefaults.h; sourceTree = "<group>"; };
 		35EBB1E21E75EEAD00E58B33 /* MyUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUserDefaults.m; sourceTree = "<group>"; };
-		35EBB1E41E75F0E200E58B33 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		35EBB1E61E75F19100E58B33 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		35EBB1E41E75F0E200E58B33 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = ../LICENSE.txt; sourceTree = "<group>"; };
+		35EBB1E61E75F19100E58B33 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +175,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35EBB1E71E75F19100E58B33 /* README.md in Sources */,
 				35EBB1CC1E75E63500E58B33 /* ViewController.m in Sources */,
 				35EBB1C91E75E63500E58B33 /* AppDelegate.m in Sources */,
 				35EBB1E31E75EEAD00E58B33 /* MyUserDefaults.m in Sources */,
@@ -330,6 +328,7 @@
 				35EBB1DA1E75E63500E58B33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
