@@ -17,7 +17,7 @@
 //
 //  (MyUserDefaults.h)
 //
-//  @interface MyUserDefaults : UCUserDefaults
+//  @interface MyUserDefaults : FSUserDefaults
 //  @property (nonatomic, strong) NSString *aDefaultString;
 //  @end
 //

@@ -172,7 +172,7 @@ GENERATE_SETTER_GETTER_METHOD_PAIR(NSURL, NSURL*)
                 }
                 break;
             default:
-                NSAssert(NO, @"[UCUserDefaults] Unhandled property type.");
+                NSAssert(NO, @"[FSUserDefaults] Unhandled property type.");
                 break;
         }
 #pragma clang diagnostic pop
